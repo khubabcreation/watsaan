@@ -17,17 +17,27 @@ class _LoginScreenState extends State<LoginScreen> {
     double width = MediaQuery.of(context).size.width;
 
     return Scaffold(
-      body: SafeArea(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+        body: SafeArea(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
           InkWell(
-              onTap: (){Navigator.of(context).push(MaterialPageRoute(builder: (context) => NameContactScreen(),));},
-              child: stylish_button(txt_for_container: 'Road Evalutaion Form', height:height*0.1 , width: width)),
-          stylish_button(txt_for_container:  ' sewerage Evaluation Form', height: height*0.1, width: width)
-
-        ],),
-      )
-    );
+              onTap: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => NameContactScreen(),
+                ));
+              },
+              child: stylish_button(
+                  txt_for_container: 'Road Evalutaion Form',
+                  height: height * 0.1,
+                  width: width)),
+          stylish_button(
+              txt_for_container: ' sewerage Evaluation Form',
+              height: height * 0.1,
+              width: width)
+        ],
+      ),
+    ));
   }
 }
+///hi i am khubaib 
