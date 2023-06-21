@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904066376366",
+    "project_id": "watsan-f2d8e",
+    "storage_bucket": "watsan-f2d8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904066376366:android:b1d8a4184233a17b48833f",
+        "android_client_info": {
+          "package_name": "com.example.mam_sana_afzal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904066376366-upvbbm0098tsrb52jobeeb46sp5etej7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7W9AvyWDXL44tML-njAlonzsb8i5A4_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904066376366-upvbbm0098tsrb52jobeeb46sp5etej7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
